@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1rem;
+    background-color: #f7f8fb;
+}
+.flex-wraper{
+    margin: 0 auto;
+    width: 80rem;
+    height: 100%;
+}
+.calculator-content{
+    padding: 5rem 0;
+}
+.calculator-content-body{
+    display: flex;
+}
+.calculator-content-body-left{
+    border-right: 1px solid #e6e5e8;
+    padding-right: 2rem;
+    width: 50%;
+}
+.calculator-content-body-left-inputs{
+    padding: 1.5rem 0;
+}
+.input-wrapper{
+    padding: 1rem 0;
+}
+.calculator-content-title{
+    font-size: 2.8rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e6e5e8;
+}
+.title{
+    color: #818185;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+.input input[type="text"]{
+    display: inline-block;
+    border: 1px solid #e6e5e8;
+    width: 100%;
+    height: 4rem;
+    padding-left: 1rem;
+}
+.input input[type="range"]{
+    display: inline-block;
+    appearance: none;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    color: orange;
+    position: relative;
+    bottom: 1rem;
+}
+.calculator-content-body-right{
+    padding-left: 2rem;
+}
+.value{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.bank{
+    display: block;
+    width: 100%;
+    border: 1px solid #e6e5e8;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.bank div{
+    color: #000;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+.active{
+    border-color: #4894ed;
+}
